@@ -1,0 +1,28 @@
+.decks{
+    height:350px;
+    position: absolute;
+    bottom:0;
+    margin-bottom: 20px;
+    width:960px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    z-index: -1;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.315);
+}
+.placeholder{
+    width: 200px;
+    height:290px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    display: inline-block;
+    margin-right: 20px; 
+    text-align: center;
+    font-size: 20px;
+    line-height: 290px;
+}
+.active{
+    background-color: palegreen;
+}
